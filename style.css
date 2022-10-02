@@ -1,0 +1,111 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: inline-flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.navigation a {
+    text-decoration: underline;
+    color: seashell;
+    padding: 0 10px;
+}
+
+.navigation {
+    list-style: none;
+    display: inline-flex;
+}
+
+.mission-container {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../resources/images/background.jpeg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mission-statement-container {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.tea-of-month {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.teas-container {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 20px 0 50px 0;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.locations-container {
+    display: flex;
+    background-image: url("../resources/images/locations.jpeg");
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 0 auto;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.locations {
+    background-color: black;
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 300px;
+    margin: 0 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.location-boxes {
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
